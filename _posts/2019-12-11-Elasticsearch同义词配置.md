@@ -3,11 +3,10 @@ layout: post
 title:  "Elasticsearch同义词配置"
 ---
 
-# Elasticsearch同义词配置
 
 ## 问题背景
 
-​     同义词搜索功能在很多业务场景中都会遇到，如何基于Elasticsearch实现同义词搜索功能?
+​    同义词搜索功能在很多业务场景中都会遇到，如何基于Elasticsearch实现同义词搜索功能?
 
 
 <figure>
