@@ -12,7 +12,7 @@ layout: page
 </style>
 
 {% for category in site.categories %}
-<h3>{{ category | first }}</h3>
+<!-- <h3>{{ category | first }}</h3> -->
 <!-- </span>{{ category | last | size }}</span> -->
 <ul class="arc-list">
     {% for post in category.last %}
