@@ -2,7 +2,8 @@
 layout: post
 title:  "Elasticsearch同义词配置"
 date:   2019-12-11 10:46:39 +0800
-categories: elasticsearch
+categories: cs
+tag: elasticsearch
 ---
 
 

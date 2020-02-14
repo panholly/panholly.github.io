@@ -5,20 +5,20 @@
 layout: page
 ---
 <style type="text/css">
-
-.arc-date {
-    color: #999999
-}
+    .arc-date {
+        color: #999999
+    }
 </style>
 
+
 {% for category in site.categories %}
-<!-- <h3>{{ category | first }}</h3> -->
-<!-- </span>{{ category | last | size }}</span> -->
+    {% assign cate_name = category|first %}
+    {% if cate_name == "cs" %}
+        {% for post in category.last %}
 <ul class="arc-list">
-    {% for post in category.last %}
-        <!-- <p>{{ post.date | date:"%Y-%m-%d %H:%M:%S"}}</p> -->
-        <h4 class="arc-date">{{ post.date | date: '%B %d, %Y'}}</h4>
-        <h4><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h4>
-    {% endfor %}
+    <h4 class="arc-date">{{ post.date | date: '%B %d, %Y'}}</h4>
+    <h4><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h4>
 </ul>
+        {% endfor %}
+    {% endif %}
 {% endfor %}

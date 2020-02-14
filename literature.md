@@ -4,15 +4,14 @@ title: Literature
 permalink: /literature/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+{% for category in site.categories %}
+    {% assign cate_name = category|first %}
+    {% if cate_name == "literature" %}
+        {% for post in category.last %}
+<ul class="arc-list">
+    <h4 class="arc-date">{{ post.date | date: '%B %d, %Y'}}</h4>
+    <h4><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h4>
+</ul>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
