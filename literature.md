@@ -4,6 +4,12 @@ title: Literature
 permalink: /literature/
 ---
 
+<style type="text/css">
+    .arc-date {
+        color: #999999
+    }
+</style>
+
 {% for category in site.categories %}
     {% assign cate_name = category|first %}
     {% if cate_name == "literature" %}
