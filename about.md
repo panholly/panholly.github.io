@@ -11,8 +11,15 @@ This is my personal blog built on Jekyll.
 <br/>
 <br/>
 <br/>
+
+
 Excellent Blogs:
 
-- [当然我在扯淡](http://www.yinwang.org/)
+- [当然我在扯淡](http://www.yinwang.org/){:target="_blank"}
 
-- [酷壳](https://coolshell.cn/)
+- [酷壳](https://coolshell.cn/){:target="_blank"}
+
+
+Some Tools:
+
+- [Latex](https://www.jianshu.com/p/93ccc63e5a1b){:target="_blank"}
