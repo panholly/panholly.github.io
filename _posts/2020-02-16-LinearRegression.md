@@ -13,11 +13,14 @@ tag: machine learning
     }
 </style>
 
-<!---
+
 <div class="ipynb">
 
+{::nomarkdown}
 {% jupyter_notebook "/notebook/2020-02-16-line_regression.ipynb" %}
+{:/nomarkdown}
+
 
 </div>
 
-->
+
