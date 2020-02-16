@@ -14,5 +14,5 @@ tag: machine learning
 
 
 <div class="ipynb">
-{% jupyter_notebook "/notebook/2020-02-16-line_regression.ipynb" %}
+<!--{% jupyter_notebook "/notebook/2020-02-16-line_regression.ipynb" %}-->
 </div>
