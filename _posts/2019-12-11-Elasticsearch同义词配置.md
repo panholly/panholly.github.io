@@ -145,7 +145,7 @@ GET syno/_search
 效果截图如下:
 
 <figure>
-<a><img src="{{site.url}}/images/1.jpg"></a>
+<a><img src="{{site.url}}/images/2.jpg"></a>
 </figure>
 
 ## 总结 
