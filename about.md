@@ -4,20 +4,20 @@ title: About
 permalink: /about/
 ---
 
-I am a CS worker based in China.
 
-This is my personal blog built on Jekyll.
-<hr>
-<br/>
-<br/>
-<br/>
+about me:
 
+- cs worker
+- post 90s
 
-Excellent Blogs:
+preferable sites:
+
+- [世界名人阅览室](http://mr.zhlhh.com/){:target="_blank"}
 
 - [当然我在扯淡](http://www.yinwang.org/){:target="_blank"}
 
 - [酷壳](https://coolshell.cn/){:target="_blank"}
+
 
 
 Some Tools:
