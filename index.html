@@ -35,12 +35,12 @@ layout: page
 <span class="date">{{ post.date }}</span>
 </p> -->
 {% for category in post.categories %}
-    {% if category == "cs" %}
+  <!--  {% if category == "cs" %} -->
     <ul class="arc-list">
         <h4 class="arc-date">{{ post.date | date: '%B %d, %Y'}}</h4>
         <h4><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h4>
     </ul>
-    {% endif %}
+  <!--  {% endif %} -->
 {% endfor %}
 {% endfor %}
 
