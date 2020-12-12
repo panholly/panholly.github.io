@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  panholly
+github_username:  napoay
 
 # Build settings
 markdown: kramdown
@@ -28,7 +28,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-jupyter-notebook
-site.url: http://panholly.github.io/  
+site.url: http://napoay.github.io/  
 paginate: 10
 paginate_path: "page:num"
 # Exclude from processing.
