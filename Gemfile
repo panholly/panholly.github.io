@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-jupyter-notebook", "~> 0.0.4"
   gem "jekyll-paginate"
+  gem 'jekyll-katex'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
